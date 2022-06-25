@@ -1,4 +1,4 @@
-const User = require("../model/User");
+const User = require("../model/user");
 
 const showdata = (req, res) => {
   User.find().then((response) => {
